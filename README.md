@@ -32,7 +32,7 @@ Siapin alat dan bahannya.
 | RR.018BOT🤖  |                   Feature        |
 | :-----------: | :------------------------------: |
 |       ✅       | Sticker Creator                  |
-|       ✅       | Nulis                            |
+|       ✅       | Nulis                           |
 |       ✅       | Covid (new)                      |
 |       ✅       | Alay (new)                       |
 |       ✅       | Lirik (new)                      |
@@ -71,7 +71,7 @@ Ket: Aktiv 24 jam
 BOT INI KHUSUS HP/TERMUX DOANG YAH,JIKA MAU RE-UPLOAD CANTUMKAN NAMA SAYA (RIZKI R)
 
 ## Sosial Media Admin
-* [`Youtube Admin`](https://www.youtube.com/channel/UCxV6HGfaKAojH029ZcD_WJg)
-* [`Instagram Admin`](https://instagram.com/s4mpah.story?igshid=1syheoq3wa4nt)
-* [`WhatsApp Admin `](https://wa.me/+6285788555068)
+* [`Youtube Admin`](https://www.youtube.com/channel/UC0KCrPNyL-E7NZIp2l3mZLQ) 
+* [`Instagram Admin`](https://instagram.com/fws_grup)
+* [`WhatsApp Admin `](https://wa.me/6281357302007)
 
