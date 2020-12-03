@@ -1,5 +1,5 @@
-# 🤖RR.018 BOT🤖
-BOT WHATSAPP TERMUX ONLY BY RIZKI R ID
+# 🤖Naga-Bot🤖
+BOT WHATSAPP TERMUX ONLY BY Naga-Bot
 
 ### Alat dan Bahan
 Siapin alat dan bahannya.
@@ -10,7 +10,7 @@ Siapin alat dan bahannya.
 > penyimpanan yang memadai
 > aplikasi whatsapp
 > aplikasi termux
-> kopi+rokok ;v
+> kopi nya 🌀
 ```
 
 ### Cara Installnya
@@ -29,7 +29,7 @@ Siapin alat dan bahannya.
 
 ## Features
 
-| RR.018BOT🤖  |                   Feature        |
+| Naga-Bot🤖  |                   Feature        |
 | :-----------: | :------------------------------: |
 |       ✅       | Sticker Creator                  |
 |       ✅       | Nulis                           |
@@ -74,4 +74,3 @@ BOT INI KHUSUS HP/TERMUX DOANG YAH,JIKA MAU RE-UPLOAD CANTUMKAN NAMA SAYA (RIZKI
 * [`Youtube Admin`](https://www.youtube.com/channel/UC0KCrPNyL-E7NZIp2l3mZLQ) 
 * [`Instagram Admin`](https://instagram.com/fws_grup)
 * [`WhatsApp Admin `](https://wa.me/6281357302007)
-
