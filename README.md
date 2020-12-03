@@ -10,21 +10,21 @@ Siapin alat dan bahannya.
 > penyimpanan yang memadai
 > aplikasi whatsapp
 > aplikasi termux
-> kopi nya 🌀
+> kopi nya diminum..
 ```
 
 ### Cara Installnya
 
 ```bash
-> kalo lu belum punya apk termux, download di playstore
+> kalo lu belum punya apk termux, download di playstore !
 > masuk ke apk termux lalu ketik dibawah ini!
 > termux-setup-storage
 > pkg install git && pkg install wget && pkg install ffmpeg && pkg install nodejs
 > apt update && apt upgrade
-> git clone https://github.com/rizkiramadhan4617/RR.018BOTWA.git
-> cd RR.018BOTWA
+> git clone https://github.com/Arya274/Arya-Bot
+> cd Arya-Bot
 > npm i -g cwebp && npm i -g ytdl && npm i  && npm i got && node index js
-> Tinggal scan kode qr yeee...done
+> Tinggal scan kode qr ya cuy...done cuk
 ```
 
 ## Features
@@ -66,6 +66,7 @@ Siapin alat dan bahannya.
 |                   MORE                           |
 
 Ket: Aktiv 24 jam
+Jika ada kendala hubungi kami..
 
 ## Note
 BOT INI KHUSUS HP/TERMUX DOANG YAH,JIKA MAU RE-UPLOAD CANTUMKAN NAMA SAYA (NFQ SQUAD)
