@@ -1,12 +1,12 @@
 /*
 * "Jangan modal nama doang bro!!!"
-* (Scriptnya Rizki r).
+* (Scriptnya Nfq cuy).
 */
 const BotName = '👾NFQ SQUAD���'; // Nama Bot Whatsapp
 const instagramlu = 'https://instagram.com/fws.grup'; // Nama Instagramlu cok
 const whatsapplu = 'Wa.me/6281357302007'; // Nomor whatsapplu cok
 const kapanbotaktif = 'Tergantung jaringan'; // Kapan bot lu aktif
-const grupch1 = 'https://chat.whatsapp.com/Dorw1sAujPv18d9nBkd9vZ'; // OFFICIAL GRUP LU 1
+const grupch1 = 'https://chat.whatsapp.com/Jb93uvhAbbGKkUXMos0Ej3'; // OFFICIAL GRUP LU 1
 const grupch2 = 'https://youtu.be/8BXZb3xC5xk'; // OFFICIAL YT LU
 const grupch3 = 'https://chat.whatsapp.com/Jb93uvhAbbGKkUXMos0Ej3'; // OFFICIAL GRUP LU 3
 //
@@ -53,7 +53,7 @@ conn.on('qr', qr =>
    {
       small: true
    });
-   console.log(`[ ${moment().format("HH:mm:ss")} ] TINGGAL SCAN :@RR.018!`);
+   console.log(`[ ${moment().format("HH:mm:ss")} ] TINGGAL SCAN :@Fws_grup`);
 });
 
 conn.on('credentials-updated', () =>
@@ -68,11 +68,11 @@ fs.existsSync('./session.json') && conn.loadAuthInfo('./session.json')
 //conn.connectOptions.agent = ProxyAgent ('http://1.0.180.120:8080')
 conn.connect();
 
-conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by M.RIZKI RAMADHAN`))
+conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by NAGA SQUAD`))
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @S4MPAH.STORY`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @FWS_GRUP`)
 })
 
 conn.on('message-new', async(m) =>
@@ -101,7 +101,7 @@ conn.sendMessage(group.gid, "hello everyone", MessageType.extendedText) // say h
 
 }
 
-// RR 018 ID
+// NAGA KUYZ
 if(text.includes("#cek")){
 var num = text.replace(/#cek/ , "")
 var idn = num.replace("0","+62");
@@ -114,9 +114,9 @@ console.log(exists);
 conn.sendMessage(id ,`${gg} ${exists ? " exists " : " does not exist"} on WhatsApp`, MessageType.text)
 }
 
-//Chat RR018 ID
+//Chat NAGA KUYZ
 else if (text == 'assalamualaikum'){
-conn.sendMessage(id, '3aalaikumsalam, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+conn.sendMessage(id, 'Waalaikumsalam, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
 }
 else if (text == 'salam'){
 conn.sendMessage(id, 'Waalaikumsalam, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
@@ -236,7 +236,7 @@ if (text.includes('#nulis')){
       imageToBase64(res.data.result)
         .then(
           (ress) => {
-            conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
+            conn.sendMessage(id, '[WAIT] Sedang menulis pesanmu...❗', MessageType.text)
             var buf = Buffer.from(ress, 'base64')
             conn.sendMessage(id, buf, MessageType.image)
         })
@@ -252,7 +252,7 @@ conn.sendMessage(id, teks, MessageType.text)
 if (text.includes("#ytmp3")){
 const teks = text.replace(/.yt /, "")
 axios.get(`http://scrap.terhambar.com/yt?link=${teks}`).then((res) => {
-	conn.sendMessage(id, '[WAIT] Searching...⏳', MessageType.text)
+	conn.sendMessage(id, '[WAIT] Sedang diproses tunggu sebentar ambil duit...⏳', MessageType.text)
     let hasil = `✅Lagu Berhasil Di Download, silahkan klik link dan download hasilnya\nKlik link dibawahn\nJudul: ${res.data.title}\n\nDuration: ${res.data.inText}\n\nAudio: ${res.data.linkAudioOnly}`;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
@@ -260,7 +260,7 @@ axios.get(`http://scrap.terhambar.com/yt?link=${teks}`).then((res) => {
 if (text.includes("#infoig")){
   const teks = text.replace(/#infoig /, "")
   axios.get(`https://st4rz.herokuapp.com/api/stalk?username=${teks}`).then ((res) =>{
-  conn.sendMessage(id, '[WAIT] Searching...⏳', MessageType.text)
+  conn.sendMessage(id, '[WAIT] Sedang diproses tunngu sebentar ambil data Ig...⏳', MessageType.text)
   let hasil = `BIODATA INSTAGRAM ATAS NAMA _${teks}_ \n\n *Username✍️* : _${res.data.Username}_ \n *Nama✍️* : _${res.data.Name}_ \n *Jumlah Followers✍️* : _${res.data.Jumlah_Followers}_ \n *Jumlah_Following✍️* : _${res.data.Jumlah_Following}_ \n *Jumlah_Post✍️* : _${res.data.Jumlah_Post}_ `;
   conn.sendMessage(id, hasil, MessageType.text);
 })
@@ -268,7 +268,7 @@ if (text.includes("#infoig")){
 if (text.includes("#infogempa")){
   const teks = text.replace(/#infogempa /, "")
   axios.get(`https://st4rz.herokuapp.com/api/infogempa`).then ((res) =>{
-  conn.sendMessage(id, '[WAIT] Searching...⏳', MessageType.text)
+  conn.sendMessage(id, '[WAIT] Sedang diproses tunggu cari data info gempa...⏳', MessageType.text)
   let hasil = ` *INFO GEMPA* \n\ *Lokasi* : _${res.data.lokasi}_ \n *Kedalaman✍️* : _${res.data.kedalaman}_ \n *Koordinat✍️* : _${res.data.koordinat}_ \n *Magnitude✍️* : _${res.data.magnitude}_ \n *Waktu✍️* : _${res.data.waktu}_ `;
   conn.sendMessage(id, hasil, MessageType.text);
 })
@@ -276,7 +276,7 @@ if (text.includes("#infogempa")){
 if (text.includes("#chord")){
 const teks = text.replace(/#chord /, "")
 axios.get(`https://st4rz.herokuapp.com/api/chord?q=${teks}`).then((res) => {
-	conn.sendMessage(id, '[WAIT] Searching...⏳', MessageType.text)
+	conn.sendMessage(id, '[WAIT] Sedang saya proses untuk chord nya ajg...⏳', MessageType.text)
     let hasil = `*Nih Cord Lagu ${teks} kak* \n\nCord: _${res.data.result}_ `;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
@@ -286,7 +286,7 @@ axios.get(`https://st4rz.herokuapp.com/api/chord?q=${teks}`).then((res) => {
 if (text.includes("#ytmp4")){
 const teks = text.replace(/#yt /, "")
 axios.get(`http://scrap.terhambar.com/yt?link=${teks}`).then((res) => {
-	conn.sendMessage(id, '[WAIT] Searching...⏳', MessageType.text)
+	conn.sendMessage(id, '[WAIT] Searching di yt...⏳', MessageType.text)
     let hasil = `✅Video Berhasil Di Download, silahkan klik link dan download hasilnya\nKlik link dibawahn\nJudul: ${res.data.title}\n\nDuration: ${res.data.inText}\n\nLink video: ${res.data.linkVideo}`;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
@@ -295,7 +295,7 @@ axios.get(`http://scrap.terhambar.com/yt?link=${teks}`).then((res) => {
 if (text.includes("#twt")){
 const teks = text.replace(/#twt /, "")
 axios.get(`https://mhankbarbar.herokuapp.com/api/twit?url=${teks}&apiKey=zFuV88pxcIiCWuYlwg57`).then((res) => {
-	conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
+	conn.sendMessage(id, '[WAIT] Searching ya cuy...❗', MessageType.text)
     let hasil = `âœ…Berhasil$ silahkan klik link di bawah untuk mendownload hasilnya$\nKlik link dibawahðŸ—¡ï¸\n\nSize: ${res.data.filesize}\n\nLink: ${res.data.result}`;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
@@ -310,7 +310,7 @@ const gtts = (`https://rest.farzain.com/api/tts.php?id=${teks}&apikey=O8mUD3YrHI
 if (text.includes("#tiktok")) {
 const tictoc = text.replace(/#tiktok /, "")
 axios.get(`http://scrap.terhambar.com/tiktokfull?link=${tictoc}`).then((res) => {
-	 conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
+	 conn.sendMessage(id, '[WAIT] Searching aowkwk...❗', MessageType.text)
      let titoe = `âœ…Berhasil$$$ Silahkan klik link dibawah ini untuk mendownload hasilnya$ \nKlik link dibawahðŸ—¡ï¸\n\nJudul: ${res.data.deskripsi} \n\nDurasi: ${res.data.durasi}\n\nNama: ${res.data.nama}\n\nUrl: ${res.data.urlvideo}`;
 conn.sendMessage(id, titoe, MessageType.text);
 })
@@ -344,7 +344,7 @@ axios.get(`https://alfians-api.herokuapp.com/api/wiki?q=${teks}`).then((res) => 
 if (text.includes("#sholat")){
   const teks = text.replace(/#sholat /, "")
   axios.get(`https://api.haipbis.xyz/jadwalsholat?daerah=${teks}`).then ((res) =>{
-  conn.sendMessage(id, '[WAIT] Searching in my web ...❗', MessageType.text)
+  conn.sendMessage(id, '[WAIT] untuk sholat sedang diproses moga� no hoax...❗', MessageType.text)
   let hasil = `Jadwal sholat di ${teks} hari ini adalah\n\nâš¡Imsyak : ${res.data.Imsyak}\nâš¡Subuh : ${res.data.Subuh} WIB\nâš¡Dzuhur : ${res.data.Dzuhur}WIB\nâš¡Ashar : ${res.data.Ashar} WIB\nâš¡Maghrib : ${res.data.Maghrib}\nâš¡Isya : ${res.data.Isya} WIB\nâš¡Tengah malam : ${res.data.Dhuha} WIB`;
   conn.sendMessage(id, hasil, MessageType.text);
 })
@@ -366,7 +366,7 @@ axios.get(`https://api.terhambar.com/ninja?nama=${teks}`).then((res) => {
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
-if (text == '#help'){
+if (text == '$help'){
 const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
 var date = new Date();
 var tahun = date.getFullYear();
@@ -643,7 +643,7 @@ const get = require('got')
     console.log(body[0]['name'])
     conn.sendMessage(id,`🔎DATA WABAH COVID-19 TERBARU DI INDONESIA🔍\n\n📈Positif ==> ${positif} \n📉Sembuh ==> ${sembuh} \n📋Meninggal ==> ${meninggal}\n🗒️Dirawat ==> ${dirawat}`, MessageType.text);
 }
-   if (text.includes(".quotes"))
+   if (text.includes("#quotes"))
    {
       var url = 'https://jagokata.com/kata-bijak/acak.html'
       axios.get(url)
@@ -726,7 +726,7 @@ _${kata}_
     });
     }
     
-if (text.includes(".pokemon"))
+if (text.includes("#pokemon"))
    {
     var items = ["anime pokemon"];
     var nime = items[Math.floor(Math.random() * items.length)];
@@ -755,11 +755,11 @@ if (text.includes(".pokemon"))
     });
     }
 
-   else if (text.includes(".nama")) 
+   else if (text.includes("#nama")) 
   {
     const cheerio = require('cheerio');
     const request = require('request');
-    var nama = text.split(".nama ")[1];
+    var nama = text.split("#nama ")[1];
     var req = nama.replace(/ /g,"+");
     request.get({
         headers: {'content-type' : 'application/x-www-form-urlencoded'},
@@ -786,9 +786,9 @@ if (text.includes(".pokemon"))
  MessageType.text);
   });
   }
-  else if (text.includes(".pasangan ")) {
+  else if (text.includes("#pasangan ")) {
     const request = require('request');
-    var gh = text.split(".pasangan ")[1];
+    var gh = text.split("#pasangan ")[1];
     var namamu = gh.split("&")[0];
     var pasangan = gh.split("&")[1];
     request.get({
@@ -924,7 +924,7 @@ if (text.includes("#alay")){
 	})
 }
 
-//Tolonglah bro jangan di ubah ubah Rizki r
+//Tolonglah bro jangan di ubah ubah Naga Kuz
 
 
 })
