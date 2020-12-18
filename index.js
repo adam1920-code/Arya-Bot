@@ -2,12 +2,12 @@
 * "Jangan modal nama doang bro!!!"
 * (Scriptnya Nfq cuy).
 */
-const BotName = '👾NFQ SQUAD���'; // Nama Bot Whatsapp
-const instagramlu = 'https://instagram.com/fws.grup'; // Nama Instagramlu cok
-const whatsapplu = 'Wa.me/6281357302007'; // Nomor whatsapplu cok
+const BotName = 'NFQ SQUAD'; // Nama Bot Whatsapp
+const instagramlu = 'https://instagram.com/arpunchs'; // Nama Instagramlu cok
+const whatsapplu = 'Wa.me/6288235435804'; // Nomor whatsapplu cok
 const kapanbotaktif = 'Tergantung jaringan'; // Kapan bot lu aktif
-const grupch1 = 'https://chat.whatsapp.com/Jb93uvhAbbGKkUXMos0Ej3'; // OFFICIAL GRUP LU 1
-const grupch2 = 'https://youtu.be/8BXZb3xC5xk'; // OFFICIAL YT LU
+const grupch1 = 'https://chat.whatsapp.com/LjkVmhsgOfiK0DMn1JiIdc'; // OFFICIAL GRUP LU 1
+const grupch2 = 'https://youtube.com/channel/UC0KCrPNyL-E7NZIp2l3mZLQ'; // OFFICIAL YT LU
 const grupch3 = 'https://chat.whatsapp.com/Jb93uvhAbbGKkUXMos0Ej3'; // OFFICIAL GRUP LU 3
 //
 const qrcode = require("qrcode-terminal");
@@ -53,7 +53,7 @@ conn.on('qr', qr =>
    {
       small: true
    });
-   console.log(`[ ${moment().format("HH:mm:ss")} ] TINGGAL SCAN :@Fws_grup`);
+   console.log(`[ ${moment().format("HH:mm:ss")} ] TINGGAL SCAN :@arpunchs`);
 });
 
 conn.on('credentials-updated', () =>
@@ -68,11 +68,11 @@ fs.existsSync('./session.json') && conn.loadAuthInfo('./session.json')
 //conn.connectOptions.agent = ProxyAgent ('http://1.0.180.120:8080')
 conn.connect();
 
-conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by NAGA SQUAD`))
+conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by ARPUNCHS`))
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @FWS_GRUP`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @arpunchs`)
 })
 
 conn.on('message-new', async(m) =>
@@ -116,22 +116,22 @@ conn.sendMessage(id ,`${gg} ${exists ? " exists " : " does not exist"} on WhatsA
 
 //Chat NAGA KUYZ
 else if (text == 'assalamualaikum'){
-conn.sendMessage(id, 'Waalaikumsalam, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+conn.sendMessage(id, 'Waalaikumsalam, Ketik #help/#info/#donasi Contoh $help' ,MessageType.text);
 }
 else if (text == 'salam'){
-conn.sendMessage(id, 'Waalaikumsalam, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+conn.sendMessage(id, 'Waalaikumsalam, Ketik #help/#info/#donasi Contoh $help' ,MessageType.text);
 }
 else if (text == 'asalamualaikum'){
-conn.sendMessage(id, 'Waalaikumsalam, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+conn.sendMessage(id, 'Waalaikumsalam, Ketik #help/#info/#donasi Contoh $help' ,MessageType.text);
 }
 else if (text == 'Assalamualaikum'){
 conn.sendMessage(id, 'Waalaikumsalam, Iya ada yg bisa kami bantu?' ,MessageType.text);
 }
 else if (text == 'p'){
-conn.sendMessage(id, 'Ya?, butuh bantuan lu? Salam yg bener napa ! (Ketik #help)' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, butuh bantuan lu? Salam yg bener napa ! (Ketik $help)' ,MessageType.text);
 }
 else if (text == 'P'){
-conn.sendMessage(id, 'Kok gak salam lu? Tenang aja disini ada bot ketik #help untuk [menu]' ,MessageType.text);
+conn.sendMessage(id, 'Kok gak salam lu? Tenang aja disini ada bot ketik $help untuk [menu]' ,MessageType.text);
 }
 else if (text == 'Halo'){
 conn.sendMessage(id, 'Ehh bang jago, Ketik #help untuk bantuan !' ,MessageType.text);
@@ -140,7 +140,7 @@ else if (text == 'Asu'){
 conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 }
 else if (text == '#owner'){
-conn.sendMessage(id, 'Owner NFQ. SQUAD : wa.me/+6285788555068' ,MessageType.text);
+conn.sendMessage(id, 'Owner NFQ. SQUAD : wa.me/+6288235435804' ,MessageType.text);
 }
 else if (text == 'bot'){
 conn.sendMessage(id, 'NAPA MANGGIL-MANGGIL KEK GAK ADA KERJAAN !' ,MessageType.text);
@@ -152,22 +152,22 @@ else if (text == 'Anjing'){
 conn.sendMessage(id, 'Pesan anda mengandung rasist ! Reason : Anjing' ,MessageType.text);
 }
 else if (text == 'Bacot'){
-conn.sendMessage(id, 'Lu bacot? apa capek? (#help) aja kuyz' ,MessageType.text);
+conn.sendMessage(id, 'Lu bacot? apa capek? ($help) aja kuyz' ,MessageType.text);
 }
 else if (text == 'Test'){
-conn.sendMessage(id, 'Test 1,2,3 ketik #help' ,MessageType.text);
+conn.sendMessage(id, 'Test 1,2,3 ketik $help' ,MessageType.text);
 }
 else if (text == 'Hai'){
-conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik $help/#info/#donasi Contoh #help' ,MessageType.text);
 }
 else if (text == 'Woi'){
-conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik $help/#info/#donasi Contoh #help' ,MessageType.text);
 }
 else if (text == 'Eoy'){
-conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik $help/#info/#donasi Contoh #help' ,MessageType.text);
 }
 else if (text == 'Hi'){
-conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik $help/#info/#donasi Contoh #help' ,MessageType.text);
 }
 else if (text == 'Gan'){
 conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
@@ -344,7 +344,7 @@ axios.get(`https://alfians-api.herokuapp.com/api/wiki?q=${teks}`).then((res) => 
 if (text.includes("#sholat")){
   const teks = text.replace(/#sholat /, "")
   axios.get(`https://api.haipbis.xyz/jadwalsholat?daerah=${teks}`).then ((res) =>{
-  conn.sendMessage(id, '[WAIT] untuk sholat sedang diproses moga� no hoax...❗', MessageType.text)
+  conn.sendMessage(id, '[WAIT] untuk sholat sedang diproses moga� no hoax...❗', MessageType.text)
   let hasil = `Jadwal sholat di ${teks} hari ini adalah\n\nâš¡Imsyak : ${res.data.Imsyak}\nâš¡Subuh : ${res.data.Subuh} WIB\nâš¡Dzuhur : ${res.data.Dzuhur}WIB\nâš¡Ashar : ${res.data.Ashar} WIB\nâš¡Maghrib : ${res.data.Maghrib}\nâš¡Isya : ${res.data.Isya} WIB\nâš¡Tengah malam : ${res.data.Dhuha} WIB`;
   conn.sendMessage(id, hasil, MessageType.text);
 })
@@ -588,7 +588,7 @@ var tampilTanggal = "TANGGAL: " + hari + ", " + tanggal + " " + bulan + " " + ta
 var tampilWaktu = "JAM: " + jam + ":" + menit + ":" + detik;
 conn.sendMessage(id, info.info(id, BotName, corohelp, tampilTanggal, tampilWaktu, instagramlu, whatsapplu, kapanbotaktif, grupch1, grupch2) ,MessageType.text);
 }
-else if (text == '.foto'){
+else if (text == '#foto'){
 conn.sendMessage(id, 'kirim .foto cewek/cowok\n\nContoh: .foto cewek' ,MessageType.text);
 }
    if (messageType == 'imageMessage')
