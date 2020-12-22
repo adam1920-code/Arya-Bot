@@ -2,7 +2,7 @@
 * "Jangan modal nama doang bro!!!"
 * (Scriptnya Nfq cuy).
 */
-const BotName = 'NFQ SQUAD'; // Nama Bot Whatsapp
+const BotName = 'YEONGSIL BOT'; // Nama Bot Whatsapp
 const instagramlu = 'https://instagram.com/arpunchs'; // Nama Instagramlu cok
 const whatsapplu = 'Wa.me/6288235435804'; // Nomor whatsapplu cok
 const kapanbotaktif = 'Tergantung jaringan'; // Kapan bot lu aktif
