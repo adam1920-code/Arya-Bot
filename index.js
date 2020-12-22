@@ -2,13 +2,13 @@
 * "Jangan modal nama doang bro!!!"
 * (Scriptnya Nfq cuy).
 */
-const BotName = 'NFQ SQUAD'; // Nama Bot Whatsapp
-const instagramlu = 'https://instagram.com/arpunchs'; // Nama Instagramlu cok
-const whatsapplu = 'Wa.me/6288235435804'; // Nomor whatsapplu cok
+const BotName = 'YEONGSIL BOT'; // Nama Bot Whatsapp
+const instagramlu = 'https://instagram.com/adam_oey107'; // Nama Instagramlu cok
+const whatsapplu = 'Wa.me/6283153843600'; // Nomor whatsapplu cok
 const kapanbotaktif = 'Tergantung jaringan'; // Kapan bot lu aktif
-const grupch1 = 'https://chat.whatsapp.com/LjkVmhsgOfiK0DMn1JiIdc'; // OFFICIAL GRUP LU 1
-const grupch2 = 'https://youtube.com/channel/UC0KCrPNyL-E7NZIp2l3mZLQ'; // OFFICIAL YT LU
-const grupch3 = 'https://chat.whatsapp.com/Jb93uvhAbbGKkUXMos0Ej3'; // OFFICIAL GRUP LU 3
+const grupch1 = 'https://chat.whatsapp.com/'; // OFFICIAL GRUP LU 1
+const grupch2 = 'https://youtube.com/channel/'; // OFFICIAL YT LU
+const grupch3 = 'https://chat.whatsapp.com/'; // OFFICIAL GRUP LU 3
 //
 const qrcode = require("qrcode-terminal");
 const moment = require("moment");
