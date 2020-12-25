@@ -137,10 +137,10 @@ else if (text == 'Halo'){
 conn.sendMessage(id, 'Ehh bang jago, Ketik #help untuk bantuan !' ,MessageType.text);
 }
 else if (text == 'Asu'){
-conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
+conn.sendMessage(id, 'Lu Asw kawan' ,MessageType.text);
 }
 else if (text == '#owner'){
-conn.sendMessage(id, 'Owner NFQ. SQUAD : wa.me/+6288235435804' ,MessageType.text);
+conn.sendMessage(id, 'Owner ONEBOX. SQUAD : wa.me/+6283153843600' ,MessageType.text);
 }
 else if (text == 'bot'){
 conn.sendMessage(id, 'NAPA MANGGIL-MANGGIL KEK GAK ADA KERJAAN !' ,MessageType.text);
@@ -334,7 +334,7 @@ axios.get(`https://st4rz.herokuapp.com/api/ig?url=${teks}`).then((res) => {
 
 if (text.includes("#wiki")){
 const teks = text.replace(/#wiki /, "")
-axios.get(`https://alfians-api.herokuapp.com/api/wiki?q=${teks}`).then((res) => {
+axios.get(`https://st4rz.herokuapp.com/api/wiki?q=${teks}`).then((res) => {
 	conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
     let hasil = `ðŸ“Menurut Wikipedia:\n\n${res.data.result}`;
     conn.sendMessage(id, hasil ,MessageType.text);
